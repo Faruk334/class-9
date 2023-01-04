@@ -1,0 +1,325 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    
+}
+
+/* body {
+box-sizing: border-box;
+} */
+
+header {
+background-image: url(../Images/background\ rough-horn-2146181_960_720.jpg);
+padding: 20px 0pc 50px 0px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: bottom;
+background-blend-mode: multiply;
+background-color: rgba(0, 0, 0, 0);
+}
+
+.container {
+width: 90%;
+margin: auto;
+}
+
+.logo {
+width: 20%;
+float: left;
+}
+
+.logo h2 {
+padding: 0px 0px 15px 0px;
+font-weight: 600;
+
+}
+
+
+nav {
+width: 80%;
+float: left;
+}
+
+nav ul {
+list-style: none;
+text-align: right;
+
+}
+
+nav ul li {
+display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px 20px;
+    font-weight: 900;
+    color: black;
+    font-size: 21px;
+}
+
+
+/* BANNER STARTSSSSSSS */
+
+
+.banner {
+text-align: center;
+padding: 50px 0px 50px 0px;
+
+}
+
+.banner h3 {
+padding: 150px 0px 15px 0px;
+font-style: italic;
+font-size: 35px;
+font-weight: 500;
+text-transform: capitalize;
+}
+
+
+
+.banner h1 {
+font-size: 90px ;
+font-weight: 800;
+text-transform: capitalize;
+padding: 25px 0px 60px 0px;
+}
+
+.banner a {
+color: black;
+text-decoration: none;
+background-color: rgba(135, 207, 235, 0.718);
+font-size: 23px;
+letter-spacing: 2px;
+font-weight:900;
+border-radius: 40px 0px 40px 0px;
+padding: 15px 30px;
+}
+
+
+.banner span {
+    height: 5px;
+    width: 490px;
+    background-color: white;
+    display: block;
+    margin: auto ;
+} 
+
+/* upcoming events */
+
+.events-section {
+    padding: 70px 0px;
+}
+
+.events {
+display: flex;
+text-align: center;
+
+}
+
+.events-section h1 {
+font-size: 40px;
+font-weight: 600;
+text-align: center;
+padding: 20px 0px 0px 0px;
+font-style: italic;
+}
+
+.events-section span {
+    height: 5px;
+    width: 360px;
+    background-color: #a9edff;
+    display: block;
+    margin: 10px 480px 30px 470px ;
+    
+}
+
+.EVENT {
+text-align: center;
+}
+
+.EVENT img {
+height: 350px ;
+width: 380px;
+object-fit: cover;
+display: block;
+margin: auto;
+border-radius: 10px;
+box-shadow:rgba(14, 30, 37, 0.544) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.EVENT h4 {
+margin: 2% 3%;
+font-size: 21px;
+}
+
+.EVENT p {
+padding: 0px 90px 15px 90px;
+text-align:left;
+font-size: 19px;
+font-weight: 550;
+}
+
+.EVENT a {
+    color: black;
+text-decoration: none;
+background-color: rgba(135, 207, 235, 0.718);
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 500;
+border-radius: 40px 40px;
+padding: 5px 10px;
+} 
+
+/* <!-- EXPLOREEEEEEE --> */
+
+.explore-section {
+    background-image: url(../Images/explore.jpg);
+    padding: 90px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:top ;
+    background-blend-mode: multiply;
+    background-color: skyblue;
+    object-fit: cover;
+    color: white;
+    display: flex;
+    justify-content: end;
+}
+
+.word {
+width: 50%;
+}
+
+.word h1 {
+font-size: 50px;
+padding: 0px 0px 0px 190px;
+}
+
+.word span {
+    height: 5px;
+    width: 340px;
+    background-color: white;
+    display: block;
+    margin: 23px 0px 9px 175px;
+}
+
+.word p {
+font-size: 21px;
+padding: 10px 0px 30px 130px;
+font-weight: 530;
+
+}
+
+.word a {
+
+    color: black;
+text-decoration: none;
+background-color: rgba(135, 207, 235, 0.718);
+font-size: 18px;
+letter-spacing: 1px;
+font-weight: 500;
+border-radius: 40px 40px;
+padding: 5px 10px;
+margin: 5px 0px 0px 250px;
+}
+
+ /* <!-- UPCOMING TOUR --> */
+
+.upcomming-tour {
+    margin: 50px 0px;
+}
+
+.tour {
+    display: flex;
+}
+
+.tours {
+    width: 30%;
+    display: block;
+    margin: auto;
+    
+}
+
+.tours h1 {
+    font-size: 40px;
+font-weight: 600;
+padding: 20px 0px 15px 0px;
+
+}
+
+.tours span {
+    height: 5px;
+    width: 180px;
+    background-color: #a9edff;;
+    display: block;
+    margin: 0px 0px 40px 5px ;
+}
+
+.tours p {
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    padding: 0px 0px 40px 0px;
+}
+
+.tours a {
+    color: black;
+    text-decoration: none;
+    background-color: rgba(135, 207, 235, 0.718);
+    font-size: 19px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    border-radius: 40px 40px;
+    padding: 12px 25px;
+    margin: 0px 0px 0px 90px;
+}
+
+
+.img1 {
+height: 250px;
+object-fit: cover;
+width: 100%;
+}
+
+.img2 {
+height: 500px;
+object-fit: cover;
+width: 100%;
+}
+
+.img3 {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.img4 {
+    height: 250px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.space {
+margin: 0px 0px 26px 0px;
+}
+
+footer {
+ background-color: rgb(135, 207, 235);
+ padding: 120px;
+ color: white;
+}
+
+footer h3 {
+    font-size: 25px;
+    text-align: center;
+}
+
+
+
+
